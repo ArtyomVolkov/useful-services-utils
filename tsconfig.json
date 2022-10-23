@@ -3,7 +3,6 @@
   "sourceMap": true,
   "noImplicitAny": true,
   "exclude": ["node_modules"],
-  "include": ["./cancel-request"],
   "compilerOptions": {
     "typeRoots" : ["node_modules/@types"],
     "module": "commonjs",
@@ -22,7 +21,7 @@
     },
     "lib": [
       "esnext",
-      "dom",
+      "dom"
     ],
   },
 }
